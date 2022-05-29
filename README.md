@@ -35,7 +35,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the Image and convert to grayscale
-BGR_image=cv2.imread('bmw.jpg')
+BGR_image=cv2.imread('rick_roll.jpg')
 gray=cv2.cvtColor(BGR_image,cv2.COLOR_BGR2GRAY)
 plt.imshow(gray)
 
